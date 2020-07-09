@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ek Villain</string>
+    <string name="ek_villain">Ek Villain</string>
+    <string name="wiki">Wiki</string>
+    <string name="songs">Songs</string>
+    <string name="poster">poster</string>
+    <string name="imdb">IMDb</string>
+    <string name="click_here">Click here</string>
+</resources>
