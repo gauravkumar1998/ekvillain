@@ -14,6 +14,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
+        //webview for displaying wynk music website
         final WebView myweb = (WebView) findViewById(R.id.web);
         WebSettings settings=myweb.getSettings();
         settings.setJavaScriptEnabled(true);

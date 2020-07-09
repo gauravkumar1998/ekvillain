@@ -29,10 +29,12 @@ public class MainActivity extends AppCompatActivity {
         btn3=findViewById(R.id.btn3);
         img=findViewById(R.id.img);
         final WebView myweb = (WebView) findViewById(R.id.web);
+        //javascript and DOMstorage permission
         WebSettings settings=myweb.getSettings();
         settings.setJavaScriptEnabled(true);
         settings.setDomStorageEnabled(true);
 
+        //implicit intent
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //explicit intent
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
